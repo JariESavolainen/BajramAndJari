@@ -1,0 +1,185 @@
+13.01.2019 16:56:43.442 0 DEBUG    103012 User:{currentUser} QtWebApp has version 1.7.4
+13.01.2019 16:56:43.443 0 DEBUG    103012 User:{currentUser} HttpSessionStore: Sessions expire after 3600000 milliseconds
+13.01.2019 16:56:43.444 0 DEBUG    103012 User:{currentUser} StaticFileController: docroot=E:/QtProj/QtWebApp/MyFirstWebApp_8/docroot, encoding=UTF-8, maxAge=90000
+13.01.2019 16:56:43.444 0 DEBUG    103012 User:{currentUser} StaticFileController: cache timeout=60000, size=1000000
+13.01.2019 16:56:43.445 0 DEBUG    103012 User:{currentUser} TemplateLoader: path=E:/QtProj/QtWebApp/MyFirstWebApp_8/docroot, codec=UTF-8
+13.01.2019 16:56:43.445 0 DEBUG    103012 User:{currentUser} TemplateCache: timeout=60000, size=1000000
+13.01.2019 16:56:43.498 0 DEBUG    103012 User:{currentUser} HttpListener: Listening on port 8080
+13.01.2019 16:56:50.209 0 DEBUG    103012 User:{currentUser} HttpListener: New connection
+13.01.2019 16:56:50.209 0 DEBUG    103012 User:{currentUser} HttpConnectionHandler (0x13c37a8): constructed
+13.01.2019 16:56:50.325 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): thread started
+13.01.2019 16:56:50.326 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): handle new connection
+13.01.2019 16:56:50.327 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read input
+13.01.2019 16:56:50.328 0 DEBUG    21368 User:{currentUser} HttpRequest: read request
+13.01.2019 16:56:50.328 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.328 0 DEBUG    21368 User:{currentUser} HttpRequest: received header host: localhost:8080
+13.01.2019 16:56:50.329 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.329 0 DEBUG    21368 User:{currentUser} HttpRequest: received header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-language: en-US,en;q=0.5
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.330 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-encoding: gzip, deflate
+13.01.2019 16:56:50.331 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.331 0 DEBUG    21368 User:{currentUser} HttpRequest: received header connection: keep-alive
+13.01.2019 16:56:50.331 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.331 0 DEBUG    21368 User:{currentUser} HttpRequest: received header cookie: sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:50.331 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.332 0 DEBUG    21368 User:{currentUser} HttpRequest: received header upgrade-insecure-requests: 1
+13.01.2019 16:56:50.332 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:50.332 0 DEBUG    21368 User:{currentUser} HttpRequest: headers completed
+13.01.2019 16:56:50.332 0 DEBUG    21368 User:{currentUser} HttpRequest: expect no body
+13.01.2019 16:56:50.332 0 DEBUG    21368 User:{currentUser} HttpRequest: extract and decode request parameters
+13.01.2019 16:56:50.333 0 DEBUG    21368 User:{currentUser} HttpRequest: extract cookies
+13.01.2019 16:56:50.333 0 DEBUG    21368 User:{currentUser} HttpRequest: found cookie sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:50.333 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): received request
+13.01.2019 16:56:50.333 0 DEBUG    21368 User:{currentUser} RequestMapper: path=/
+13.01.2019 16:56:50.333 0 DEBUG    21368 User:{currentUser} HttpSessionStore: received invalid session cookie with ID {cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:50.334 0 DEBUG    21368 User: RequestMapper: finished request
+13.01.2019 16:56:50.334 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): finished request
+13.01.2019 16:56:57.523 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read input
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read request
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: received header host: localhost:8080
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: received header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-language: en-US,en;q=0.5
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.524 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-encoding: gzip, deflate
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: received header connection: keep-alive
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: received header cookie: sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: received header upgrade-insecure-requests: 1
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: headers completed
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: expect no body
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: extract and decode request parameters
+13.01.2019 16:56:57.525 0 DEBUG    21368 User:{currentUser} HttpRequest: extract cookies
+13.01.2019 16:56:57.526 0 DEBUG    21368 User:{currentUser} HttpRequest: found cookie sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:57.526 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): received request
+13.01.2019 16:56:57.526 0 DEBUG    21368 User:{currentUser} RequestMapper: path=/list
+13.01.2019 16:56:57.526 0 DEBUG    21368 User:{currentUser} HttpSessionStore: received invalid session cookie with ID {cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:56:57.526 0 DEBUG    21368 User: RequestMapper: finished request
+13.01.2019 16:56:57.527 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): finished request
+13.01.2019 16:57:03.746 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read input
+13.01.2019 16:57:03.746 0 DEBUG    21368 User:{currentUser} HttpRequest: read request
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: received header host: localhost:8080
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: received header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-language: en-US,en;q=0.5
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-encoding: gzip, deflate
+13.01.2019 16:57:03.747 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: received header connection: keep-alive
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: received header cookie: sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: received header upgrade-insecure-requests: 1
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: headers completed
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: expect no body
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: extract and decode request parameters
+13.01.2019 16:57:03.748 0 DEBUG    21368 User:{currentUser} HttpRequest: extract cookies
+13.01.2019 16:57:03.749 0 DEBUG    21368 User:{currentUser} HttpRequest: found cookie sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:03.749 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): received request
+13.01.2019 16:57:03.749 0 DEBUG    21368 User:{currentUser} RequestMapper: path=/logon
+13.01.2019 16:57:03.749 0 DEBUG    21368 User:{currentUser} HttpSessionStore: received invalid session cookie with ID {cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:03.749 0 DEBUG    21368 User: RequestMapper: finished request
+13.01.2019 16:57:03.749 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): finished request
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read input
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: read request
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: received header host: localhost:8080
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: received header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+13.01.2019 16:57:09.710 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-language: en-US,en;q=0.5
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-encoding: gzip, deflate
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: received header connection: keep-alive
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: received header cookie: sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:09.711 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: received header upgrade-insecure-requests: 1
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: headers completed
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: expect no body
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: extract and decode request parameters
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: extract cookies
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpRequest: found cookie sessionid={cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): received request
+13.01.2019 16:57:09.712 0 DEBUG    21368 User:{currentUser} RequestMapper: path=/login
+13.01.2019 16:57:09.713 0 DEBUG    21368 User:{currentUser} HttpSessionStore: received invalid session cookie with ID {cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:09.713 0 DEBUG    21368 User: HttpSessionStore: received invalid session cookie with ID {cd59ff7e-fc27-4b56-acf8-f5750a9c5d89}
+13.01.2019 16:57:09.713 0 DEBUG    21368 User: HttpSession: created new session data with id {612666e5-6b90-4487-a14a-48fc2a4bdb8e}
+13.01.2019 16:57:09.713 0 DEBUG    21368 User: HttpSessionStore: create new session with ID {612666e5-6b90-4487-a14a-48fc2a4bdb8e}
+13.01.2019 16:57:09.713 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:09.714 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 3
+13.01.2019 16:57:09.714 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:09.714 0 DEBUG    21368 User: username=
+13.01.2019 16:57:09.714 0 DEBUG    21368 User: password=
+13.01.2019 16:57:09.715 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 1
+13.01.2019 16:57:09.715 0 DEBUG    21368 User: RequestMapper: finished request
+13.01.2019 16:57:09.715 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): finished request
+13.01.2019 16:57:11.236 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read input
+13.01.2019 16:57:11.236 0 DEBUG    21368 User:{currentUser} HttpRequest: read request
+13.01.2019 16:57:11.236 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header host: localhost:8080
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-language: en-US,en;q=0.5
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header accept-encoding: gzip, deflate
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.237 0 DEBUG    21368 User:{currentUser} HttpRequest: received header referer: http://localhost:8080/login
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: received header content-type: application/x-www-form-urlencoded
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: received header content-length: 28
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: received header connection: keep-alive
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.238 0 DEBUG    21368 User:{currentUser} HttpRequest: received header cookie: sessionid={612666e5-6b90-4487-a14a-48fc2a4bdb8e}
+13.01.2019 16:57:11.239 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.239 0 DEBUG    21368 User:{currentUser} HttpRequest: received header upgrade-insecure-requests: 1
+13.01.2019 16:57:11.239 0 DEBUG    21368 User:{currentUser} HttpRequest: read header
+13.01.2019 16:57:11.239 0 DEBUG    21368 User:{currentUser} HttpRequest: headers completed
+13.01.2019 16:57:11.239 0 DEBUG    21368 User:{currentUser} HttpRequest: expect 28 bytes body
+13.01.2019 16:57:11.240 0 DEBUG    21368 User:{currentUser} HttpRequest: receive body
+13.01.2019 16:57:11.240 0 DEBUG    21368 User:{currentUser} HttpRequest: extract and decode request parameters
+13.01.2019 16:57:11.240 0 DEBUG    21368 User:{currentUser} HttpRequest: extract cookies
+13.01.2019 16:57:11.240 0 DEBUG    21368 User:{currentUser} HttpRequest: found cookie sessionid={612666e5-6b90-4487-a14a-48fc2a4bdb8e}
+13.01.2019 16:57:11.241 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): received request
+13.01.2019 16:57:11.241 0 DEBUG    21368 User:{currentUser} RequestMapper: path=/login
+13.01.2019 16:57:11.241 0 DEBUG    21368 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:11.241 0 DEBUG    21368 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 3
+13.01.2019 16:57:11.241 0 DEBUG    21368 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:11.241 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 3
+13.01.2019 16:57:11.242 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 4
+13.01.2019 16:57:11.242 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 3
+13.01.2019 16:57:11.242 0 DEBUG    21368 User: username=test
+13.01.2019 16:57:11.242 0 DEBUG    21368 User: password=hello
+13.01.2019 16:57:11.243 0 DEBUG    21368 User: HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:11.243 0 DEBUG    21368 User: RequestMapper: finished request
+13.01.2019 16:57:11.243 0 DEBUG    21368 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 1
+13.01.2019 16:57:11.243 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): finished request
+13.01.2019 16:57:43.498 0 DEBUG    103012 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 2
+13.01.2019 16:57:43.498 0 DEBUG    103012 User:{currentUser} HttpSession: refCount of {612666e5-6b90-4487-a14a-48fc2a4bdb8e} is 1
+13.01.2019 16:58:11.239 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): read timeout occured
+13.01.2019 16:58:11.239 0 DEBUG    21368 User:{currentUser} HttpConnectionHandler (0x13c37a8): disconnected
