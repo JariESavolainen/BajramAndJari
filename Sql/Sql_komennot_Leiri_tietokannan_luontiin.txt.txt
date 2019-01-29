@@ -1,12 +1,17 @@
 
 
-DROP TABLE  SFC_Number;
+DROP TABLE  Asiakkaat;
 CREATE TABLE SFC_Number (
  SFCNr INTEGER PRIMARY KEY,
  first_name TEXT NOT NULL,
  last_name TEXT NOT NULL,
  email text NOT NULL UNIQUE,
- phone text NOT NULL UNIQUE
+ phone text NOT NULL UNIQUE,
+ streetAdress test,
+ postNr text,
+ city text,
+ state text	
+
 );
 
 DROP TABLE PaikkaVaraus;
