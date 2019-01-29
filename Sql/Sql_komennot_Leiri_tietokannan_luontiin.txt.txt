@@ -1,53 +1,81 @@
 
 
-DROP TABLE  Asiakkaat;
-CREATE TABLE SFC_Number (
- SFCNr INTEGER PRIMARY KEY,
- first_name TEXT NOT NULL,
- last_name TEXT NOT NULL,
- email text NOT NULL UNIQUE,
- phone text NOT NULL UNIQUE,
- streetAdress test,
+DROP TABLE  Customer;
+CREATE TABLE Customer(
+ SFCNr INTEGER PRIMARY KEY,-- 500000 ja yli virtuaalisilta 
+ rekNr text,--oletus AKU-303
+ first_name TEXT NOT NULL, --oletus Oskari
+ last_name TEXT NOT NULL, --Olematon
+ email text NOT NULL,-- tama on myos kayttajatunnus
+ phone text NOT NULL,
+ streetAddress test,
  postNr text,
  city text,
- state text	
-
+ state text,	
+ identified bool, -- tunnistettuHenkilloisyys
+ balance real,--rahatilanne +maksettu -velkaa
+ password text
 );
 
-DROP TABLE PaikkaVaraus;
-CREATE TABLE PaikkaVaraus (
+--DROP TABLE  logininfo;
+--CREATE TABLE logininfo(
+--user
+--)
+
+
+
+DROP TABLE Reservation;
+CREATE TABLE Reservation(
  id INTEGER PRIMARY KEY,
  SFCNr INT references SFC_Number(SFCNr),
- maksu float NOT NULL,
+ maksu float NOT NULL,--
  era_nr  integer not NULL,
  alkuPvm   INTEGER NOT NULL,
  loppuPvm   INTEGER NOT NULL,
- tyyppi	INTEGER NOT NULL --11119 talvi 22228 
+ tyyppi	INTEGER NOT NULL --varauksen tyyppi on viitenumero laskussa 11119 talvi 22228 
 );
 
-DROP TABLE KaasunOsto;
-CREATE TABLE KaasunOsto(
+DROP TABLE GasPurhase;
+CREATE TABLE GasPurhase(
  id INTEGER PRIMARY KEY,
  SFCNr INT references SFC_Number(SFCNr),
  maksu float NOT NULL,
  pvm   INTEGER NOT NULL 
 );
 
-DROP TABLE SahkonMaksu;
-CREATE TABLE SahkonMaksu(
+DROP TABLE ElectricityPayment;
+CREATE TABLE ElectricityPayment(
  id INTEGER PRIMARY KEY,
  SFCNr INT references SFC_Number(SFCNr),
  maksu float NOT NULL,
-alkuLukema integer,
-loppuLukema integer,
+ alkuLukema integer,
+ loppuLukema integer,
  pvm   INTEGER NOT NULL 
 );
 
-DROP TABLE SaunaMaksu;
-CREATE TABLE SaunaMaksu(
+DROP TABLE SaunaPayment;
+CREATE TABLE SaunaPayment(
  id INTEGER PRIMARY KEY,
  SFCNr INT references SFC_Number(SFCNr),
  maksu float NOT NULL,
  pvm   INTEGER NOT NULL 
+);
+
+--ei mukana
+DROP TABLE  HavaitutVaunut;
+CREATE TABLE HavaitutVaunut(
+ id INTEGER PRIMARY KEY,
+ SFCNr INTEGER,
+ reKNr text,
+ first_name TEXT,
+ last_name TEXT,
+ email text, -- tama on myos kayttajatunnus
+ phone text,
+ streetAdress test,
+ postNr text,
+ city text,
+ state text,
+ debt real,	--velka
+ password text
 );
 

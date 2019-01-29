@@ -4,6 +4,7 @@
 TARGET = Demo1
 TEMPLATE = app
 QT = core network
+QT += sql
 CONFIG += console
 
 HEADERS += \
