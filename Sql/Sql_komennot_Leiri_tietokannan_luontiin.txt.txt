@@ -24,6 +24,8 @@ CREATE TABLE Customer(
 
 
 
+
+
 DROP TABLE Reservation;
 CREATE TABLE Reservation(
  id INTEGER PRIMARY KEY,
