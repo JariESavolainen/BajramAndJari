@@ -2,7 +2,7 @@
 
 DROP TABLE  Customer;
 CREATE TABLE Customer(
- SFCNr INTEGER PRIMARY KEY,-- 500000 ja yli virtuaalisilta 
+ SFCNr INTEGER PRIMARY KEY, -- 500000 ja yli virtuaalisilta 
  rekNr text,--oletus AKU-303
  first_name TEXT NOT NULL, --oletus Oskari
  last_name TEXT NOT NULL, --Olematon
@@ -21,9 +21,6 @@ CREATE TABLE Customer(
 --CREATE TABLE logininfo(
 --user
 --)
-
-
-
 
 
 DROP TABLE Reservation;

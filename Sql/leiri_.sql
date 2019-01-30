@@ -1,6 +1,6 @@
 DROP TABLE  Customer;
 CREATE TABLE Customer(
- SFCNr INTEGER PRIMARY KEY,-- 500000 ja yli virtuaalisilta
+ SFCNr INTEGER PRIMARY KEY,-- 500000 ja yli virtuaalisilta 
  rekNr text,--oletus AKU-303
  first_name TEXT NOT NULL, --oletus Oskari
  last_name TEXT NOT NULL, --Olematon
@@ -15,14 +15,20 @@ CREATE TABLE Customer(
  password text
 );
 
+--DROP TABLE  logininfo;
+--CREATE TABLE logininfo(
+--user
+--)
+
+
+
 
 
 DROP TABLE Reservation;
 CREATE TABLE Reservation(
  id INTEGER PRIMARY KEY,
- --id INT NOT NULL PRIMARY KEY,
  SFCNr INT references SFC_Number(SFCNr),
- maksu float NOT NULL,-- miinus jos j‰‰nyt maksamatta
+ maksu float NOT NULL,--
  era_nr  integer not NULL,
  alkuPvm   INTEGER NOT NULL,
  loppuPvm   INTEGER NOT NULL,
@@ -44,5 +50,13 @@ CREATE TABLE ElectricityPayment(
  maksu float NOT NULL,
  alkuLukema integer,
  loppuLukema integer,
+ pvm   INTEGER NOT NULL 
+);
+
+DROP TABLE SaunaPayment;
+CREATE TABLE SaunaPayment(
+ id INTEGER PRIMARY KEY,
+ SFCNr INT references SFC_Number(SFCNr),
+ maksu float NOT NULL,
  pvm   INTEGER NOT NULL 
 );

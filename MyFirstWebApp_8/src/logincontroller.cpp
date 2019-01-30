@@ -10,6 +10,9 @@ LoginController::LoginController(QObject* parent)
 
 void LoginController::service(HttpRequest& request, HttpResponse& response)
 {
+    QString QsText;
+    QByteArray QbText;
+
     HttpSession session = RequestMapper::sessionStore->getSession(request, response, true);
     QByteArray username = request.getParameter("username");
     QByteArray password = request.getParameter("password");
@@ -23,6 +26,7 @@ void LoginController::service(HttpRequest& request, HttpResponse& response)
     if (session.contains("username")) {
         QByteArray username = session.get("username").toByteArray();
         QTime logintime = session.get("logintime").toTime();
+
         response.write("You are alread logged in.<br>");
         response.write("Your name is: " + username + "<br>");
         response.write("You logged in at: " + logintime.toString("HH:mm:ss").toLocal8Bit() + "<br>");
@@ -37,6 +41,9 @@ void LoginController::service(HttpRequest& request, HttpResponse& response)
                 response.write("No, that was wrong!<br><br>");
                 qCritical("Login failed!");
             }
+            QsText.append(tr("Please log in:<br>"));
+            QbText = QsText.toUtf8();
+            response.write(QbText);
             response.write("Please log in:<br>");
             response.write("Name:  <input type='text' name='username'><br>");
             response.write("Password: <input type='password' name='password'><br>");
